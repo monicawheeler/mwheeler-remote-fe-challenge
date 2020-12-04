@@ -1,5 +1,3 @@
-import { Country } from './'
-
 export function configureFakeBackend() {
     // array in local storage for user records
     let users = JSON.parse(localStorage.getItem('users')) || [
