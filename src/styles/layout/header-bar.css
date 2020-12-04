@@ -1,0 +1,17 @@
+.header-bar {
+    margin-bottom: var(--global-gutter-large);
+    padding-top: 20px;
+    padding-inline-end: 20px;
+    padding-bottom: 20px;
+    width: 100vw;
+    background-color: var(--global-white);
+}
+
+.header-bar__inner {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-width: var(--global-content-width);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

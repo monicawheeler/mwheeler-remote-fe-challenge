@@ -1,0 +1,24 @@
+.page-header {
+    margin-bottom: 56px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.page-header__inner {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-header__caption {
+    margin-inline-start: 8px;
+    color: var(--global-gray-1);
+}
+
+.page-header__action svg {
+    fill: currentColor;
+}
+
+.page-header__action-text {
+    margin-inline-start: 6px;
+}

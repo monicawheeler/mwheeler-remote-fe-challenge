@@ -1,0 +1,20 @@
+.media {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    align-items: center;
+}
+
+.media__image {
+    height: 36px;
+    width: 36px;
+    background-color: var(--global-accent);
+    border-radius: var(--global-radius-round);
+}
+
+.media__image--placeholder {
+    background-color: var(--global-accent);
+}
+
+.media__content {
+    margin-inline-start: 12px;
+}

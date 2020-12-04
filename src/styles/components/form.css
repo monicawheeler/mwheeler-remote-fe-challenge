@@ -1,0 +1,98 @@
+.form {
+    margin-inline-start: var(--global-gutter-xlarge);
+    margin-inline-end: var(--global-gutter-xlarge);
+    background-color: var(--global-white);
+    border-radius: var(--global-radius);
+    box-shadow: var(--global-box-shadow);
+}
+
+.form__header {
+    padding-top: 34px;
+    padding-inline-start: 36px;
+    padding-bottom: 30px;
+    padding-inline-end: 36px;
+    border-bottom: 1px solid var(--global-gray-0);
+}
+
+.form__heading {
+    margin-bottom: 8px;
+}
+
+.form__body {
+    padding-top: 48px;
+    padding-inline-start: 240px;
+    padding-bottom: 80px;
+    padding-inline-end: 240px;
+}
+
+.form__field.is-active .form__label {
+    color: var(--global-primary);
+}
+
+.form__field:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.form__field:hover .form__label {
+    color: var(--global-primary);
+}
+
+.form__label {
+    padding-bottom: var(--global-gutter-xsmall);
+    color: var(--global-gray-2);
+}
+
+.form__input {
+    padding-bottom: 8px;
+    font-size: var(--font-size-20);
+    font-weight: var(--weight-regular);
+    line-height: 1.21;
+    border-bottom: 1.5px solid var(--global-gray-2);
+}
+
+.form__input:active,
+.form__input:hover,
+.form__input:focus {
+    border-bottom: 1.5px solid var(--global-primary);
+}
+
+.form__input-footer {
+    margin-top: 10px;
+    color:var(--global-black-transparent);
+
+}
+
+.form__footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--global-background-light);
+    border-bottom-right-radius: var(--global-radius);
+    border-bottom-left-radius: var(--global-radius);
+}
+
+::-webkit-input-placeholder {
+    font-size: var(--font-size-20);
+    font-weight: var(--weight-regular);
+    line-height: 1.21;
+    color: var(--global-gray-2);
+}
+::-moz-placeholder {
+    font-size: var(--font-size-20);
+    font-weight: var(--weight-regular);
+    line-height: 1.21;
+    color: var(--global-gray-2);
+}
+:-ms-input-placeholder {
+    font-size: var(--font-size-20);
+    font-weight: var(--weight-regular);
+    line-height: 1.21;
+    color: var(--global-gray-2);
+}
+:-moz-placeholder {
+    font-size: var(--font-size-20);
+    font-weight: var(--weight-regular);
+    line-height: 1.21;
+    color: var(--global-gray-2);
+}

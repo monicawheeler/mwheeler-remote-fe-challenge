@@ -1,0 +1,38 @@
+:root {
+    /* Global Colors */
+    --global-white: #fff;
+    --global-black: #00234B;
+    --global-black-transparent: rgba(0, 35, 75, 0.5);
+
+    --global-primary: #624de3;
+    --global-primary-transparent: rgba(98, 77, 227, 0.5);
+    --global-primary-dark: #3a2e88;
+    --global-accent: #ffe8df;
+    --global-background: #f5f7fc;
+    --global-background-light: #f9faff;
+
+    --global-gray-0: #eaedf3;
+    --global-gray-1: #778ca3;
+    --global-gray-2: #525f7f;
+
+    /* Global Widths */
+    --global-width: 1280px;
+    --global-content-width: 1078px;
+
+    /* Global Gutters */
+    --global-gutter-xsmall: 4px;
+    --global-gutter-small: 10px;
+    --global-gutter-medium: 32px;
+    --global-gutter-large: 40px;
+    --global-gutter-xlarge: 101px;
+
+    /* Global Radii */
+    --global-radius: 10px;
+    --global-radius-round: 50%;
+
+    /* Global Box Shadow */
+    --global-box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.05); /* Note: blur radius varies from design to prevent shadow from overlapping siblings - I would discuss with design before shipping this update. */
+
+    /* Global Transitions */
+    --global-transition: .2s ease-in-out;
+}
