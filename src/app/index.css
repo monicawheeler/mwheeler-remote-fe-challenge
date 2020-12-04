@@ -96,6 +96,20 @@ label {
     max-width: var(--global-width);
 }
 
+@media (max-width: 1240px) {
+    .global-container {
+        padding-inline-end: var(--global-gutter-large);
+        padding-inline-start: var(--global-gutter-large);
+    }
+}
+
+@media (max-width: 1090px) {
+    .global-container {
+        padding-inline-end: 16px;
+        padding-inline-start: 16px;
+    }
+}
+
 /* Utilities */
 
 /* Class to assign to text that is for screen readers only */

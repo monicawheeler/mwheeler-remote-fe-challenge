@@ -48,3 +48,48 @@ td {
 .table__row-heading {
     margin-bottom: var(--global-gutter-xsmall);
 }
+
+.table__cell::before {
+    display: block;
+    font-size: var(--font-size-12);
+    font-weight: var(--weight-semibold);
+    line-height: 1.6667;
+    text-transform: uppercase;
+}
+
+.table__cell--employee::before {
+    content: "Employee";
+}
+
+.table__cell--jobTitle::before {
+    content: "Job Title";
+}
+
+.table__cell--country::before {
+    content: "Country";
+}
+
+.table__cell--salary::before {
+    content: "Salary";
+}
+
+.table__cell-action {
+    max-width: 143px;
+}
+
+@media (max-width: 1090px) {
+    .table__grid-row {
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+@media (max-width: 770px) {
+    .table__col-heading {
+        display: none;
+    }
+
+    .table__grid-row {
+        grid-template-columns: 1fr;
+    }
+}

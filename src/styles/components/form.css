@@ -96,3 +96,15 @@
     line-height: 1.21;
     color: var(--global-gray-2);
 }
+
+@media (max-width: 1090px) {
+    .form {
+        margin-inline-start: 16px;
+        margin-inline-end: 16px;
+    }
+
+    .form__body {
+        padding-inline-start: 36px;
+        padding-inline-end: 36px;
+    }
+}

@@ -52,16 +52,16 @@ function List({ match }) {
                 <div className="table__tbody" role="rowgroup">
                     {users && users.map(user =>
                         <div key={user.id} className="table__data-row table__grid-row" role="row">
-                            <span role="cell">
+                            <span className="table__cell table__cell--employee" role="cell">
                                 <h2 className="table__row-heading t-row-heading">{user.name}</h2>
                                 <p className="t-caption">{user.birthdate}</p>
                             </span>
-                            <span className="t-body" role="cell">{user.jobTitle}</span>
-                            <span className="t-body" role="cell">{user.country}</span>
-                            <span className="t-body" role="cell">
+                            <span className="table__cell table__cell--jobTitle t-body" role="cell">{user.jobTitle}</span>
+                            <span className="table__cell table__cell--country t-body" role="cell">{user.country}</span>
+                            <span className="table__cell table__cell--salary t-body" role="cell">
                                 {user.salary} USD <span className="t-caption-small">per year</span>
                             </span>
-                            <span className="t-body" role="cell">
+                            <span className="table__cell-action t-body" role="cell">
                                 <Link to={`${path}/edit/${user.id}`} className="button button--outlined">Edit</Link>
                             </span>
                         </div>
